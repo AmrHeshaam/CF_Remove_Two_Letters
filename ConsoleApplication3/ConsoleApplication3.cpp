@@ -42,4 +42,5 @@ int main()
     {
         std::cout << number_of_unique_strings(test_case) << std::endl;
     }
+    return 0;
 }
