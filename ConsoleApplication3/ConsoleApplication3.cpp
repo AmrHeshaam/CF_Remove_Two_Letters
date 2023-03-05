@@ -1,4 +1,4 @@
-// This is for the CodeForces challenges named Remove Two Letters, code 1800D. The code works but exceeds the memory allowed on one test. 
+// This is for the CodeForces challenge named Remove Two Letters, code 1800D. The code works but exceeds the memory allowed on one test. 
 // As of writing this, no one has solved this challenge with C++ successfully within that limited memory usage.
 // Link to challenge: https://codeforces.com/problemset/problem/1800/D
 
