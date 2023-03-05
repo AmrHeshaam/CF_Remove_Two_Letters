@@ -7,10 +7,10 @@
 #include <set>
 #include <vector>
 
-int number_of_unique_strings(std::string& const s, int length)
+int number_of_unique_strings(std::string& const s)
 {
     std::set<std::string> unique_strings;
-    for (int i = 0; i < (length - 1); i++) // Here we start with the index of the first charcter in the string and end with the index 
+    for (int i = 0; i < (s.size() - 1); i++) // Here we start with the index of the first charcter in the string and end with the index 
     {                                      // of the second to last, in such a way that makes there always be elements at s[i] and at s[i+1]
         std::string temp = s;
         temp.erase(i, 2);
@@ -40,6 +40,6 @@ int main()
 
     for (std::string test_case : test_strings)
     {
-        std::cout << number_of_unique_strings(test_case, test_case.size()) << std::endl;
+        std::cout << number_of_unique_strings(test_case) << std::endl;
     }
 }
