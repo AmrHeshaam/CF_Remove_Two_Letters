@@ -1,32 +1,6 @@
 // This is for the CodeForces challenges named Remove Two Letters, code 1800D. The code works but exceeds the memory allowed on one test. 
 // As of writing this, no one has solved this challenge with C++ successfully within that limited memory usage.
 // Link to challenge: https://codeforces.com/problemset/problem/1800/D
-/* Input given:
-7
-6
-aaabcc
-10
-aaaaaaaaaa
-6
-abcdef
-7
-abacaba
-6
-cccfff
-4
-abba
-5
-ababa
-*/
-/*Output given:
-4
-1
-5
-3
-3
-3
-1
-*/
 
 #include <iostream>
 #include <string>
